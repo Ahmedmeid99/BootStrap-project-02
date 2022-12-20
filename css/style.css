@@ -263,6 +263,7 @@ li a[class="active"].nav-link::before,
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1.5rem;
+  margin-bottom: 4rem;
   position: relative;
 }
 .grid-img::before {
