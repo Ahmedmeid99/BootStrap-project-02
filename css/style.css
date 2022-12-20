@@ -37,8 +37,9 @@ body {
 .dark-text {
   color: var(--text-color);
 }
-.section-padding {
+.section {
   padding: 7rem 0;
+  overflow-x: hidden;
 }
 .rounded-20 {
   border-radius: 20px !important;
