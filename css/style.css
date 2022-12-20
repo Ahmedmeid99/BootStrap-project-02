@@ -48,8 +48,7 @@ body {
 /*START NAV Section  */
 .header {
   background-color: var(--main-color);
-  width: 100%;
-  position: fixed;
+  max-width: 100%;
 }
 .header svg,
 .header i {
