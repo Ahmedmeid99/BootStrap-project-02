@@ -45,6 +45,10 @@ body {
   padding: 7rem 0;
   overflow-x: hidden;
 }
+.ov-x-hidden {
+  overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
   .section {
     padding: 3rem 0;
