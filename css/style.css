@@ -236,11 +236,11 @@ li a[class="active"].nav-link::before,
   top: -6rem;
   left: -4rem;
 }
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
   .about .img-container::before {
-    display: none;
+    top: -3rem;
   }
-} */
+}
 .about-text {
   font-size: 14px;
   font-weight: 400;
