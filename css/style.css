@@ -413,6 +413,9 @@ button.active::before {
   padding: 12rem 0;
 }
 @media (max-width: 575px) {
+  .subscrib {
+    padding: 12rem 0 4rem 0;
+  }
   #form {
     padding: 1rem;
   }
