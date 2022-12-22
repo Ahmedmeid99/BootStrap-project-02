@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg header sticky-top pt-lg-3 pb-lg-3 ">
         <div class="container">
             <a class="navbar-brand text-600 text-32 text-white" href="#"><span class="pe-1">Furni</span><span
@@ -35,7 +34,7 @@
                         <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#services">Shop</a>
+                        <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#shop">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#about">About</a>
@@ -44,7 +43,7 @@
                         <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#portfolio">Blog</a>
+                        <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-600 tetx-14 me-5 ps-0 pe-0 " href="#contact">Contact Us</a>
@@ -80,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div class="shop section section-bg dark-text">
+    <div class="shop section section-bg dark-text" id="shop">
         <div class="container dark-text">
             <div class="row align-items-center">
                 <div class="col-md-12  col-lg-3 mb-5" data-aos="fade-right">
@@ -109,7 +108,7 @@
             </div>
         </div>
     </div>
-    <div class="about section section-bg dark-text">
+    <div class="about section section-bg dark-text" id="about">
         <div class="container">
             <div class="row  justify-content-between">
                 <div class="col-lg-6">
@@ -165,7 +164,7 @@
             </div>
         </div>
     </div>
-    <div class="services section section-bg dark-text">
+    <div class="services section section-bg dark-text" id="services">
         <div class="container">
             <div class="row dark-text">
                 <div class="col-lg-7" data-aos="fade-right">
@@ -284,8 +283,8 @@
                             malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
                             tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                             turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
-                        <img src="./images/person-1.jpg" class="d-block " alt="...">
-                        <h5 class="name text-600">Maria Jones</h5>
+                        <img src="./images/person_2.jpg" class="d-block " alt="...">
+                        <h5 class="name text-600">mohamed ali</h5>
                         <span class="jop text-black-50">CEO, Co-Founder, XYZ Inc.</span>
                     </div>
                 </div>
@@ -297,8 +296,8 @@
                             malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor
                             tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
                             turpis egestas. Integer convallis volutpat dui quis scelerisque.”</p>
-                        <img src="./images/person-1.jpg" class="d-block " alt="...">
-                        <h6 class="name text-600">Maria Jones</h6>
+                        <img src="./images/person_3.jpg" class="d-block " alt="...">
+                        <h6 class="name text-600">Ali Hassan </h6>
                         <span class="jop text-black-50">CEO, Co-Founder, XYZ Inc.</span>
                     </div>
                 </div>
@@ -328,7 +327,7 @@
             </button>
         </div>
     </div>
-    <div class="blog-section section section-bg dark-text">
+    <div class="blog-section section section-bg dark-text" id="blog">
         <div class="container">
             <header class="d-flex justify-content-between align-items-center mb-5">
                 <h2 class=" m-0">Recent Blog</h2>
@@ -362,7 +361,7 @@
             </div>
         </div>
     </div>
-    <div class="contact-section">
+    <div class="contact-section" id="contact">
         <div class="container">
             <div class="sofa-container " data-aos="fade-up">
                 <img class="sofa-img img-fluid" src="./images/sofa.png" alt="img...!">
@@ -443,22 +442,14 @@
             </div>
         </div>
     </footer>
-    <script>
-        // form submit handler
-        const form = document.getElementById('form')
-        form.addEventListener('submit', (e) => e.preventDefault())
-    </script>
+
     <!-- bootstrap  -->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- font awsome -->
     <script src="./js/all.min.js"></script>
     <!-- animation  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            delay: 200,
-            duration: 1500,
-        });
+    <script src="./js/app.js">
     </script>
 </body>
 
