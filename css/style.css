@@ -45,6 +45,11 @@ body {
   padding: 7rem 0;
   overflow-x: hidden;
 }
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+}
 .section-bg {
   background-color: var(--bg-section);
 }
@@ -386,11 +391,32 @@ button.active::before {
 .blog-section {
   padding-bottom: 15rem !important;
 }
+.blog-section a > img {
+  transition: 0.3s;
+}
+.blog-section a > img:hover {
+  filter: opacity(0.5);
+}
 /*END BLOG-Section */
 /* START Subscrib */
 .subscrib {
   padding: 5rem 0;
   height: fit-content;
+}
+@media (max-width: 992px) {
+}
+.subscrib {
+  padding: 12rem 0;
+}
+@media (max-width: 575px) {
+  #form {
+    padding: 1rem;
+  }
+  #form .btn {
+    padding: 1rem;
+    margin: auto 1rem;
+    max-width: 92%;
+  }
 }
 .contact-section .container {
   position: relative;
