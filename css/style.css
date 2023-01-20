@@ -134,6 +134,11 @@ li a[class="active"].nav-link::before,
   min-width: 1400px;
   overflow: hidden;
 }
+@media (min-width: 768px) {
+  .landing .row {
+    padding-left: 25px;
+  }
+}
 .img-cover {
   position: relative;
   top: 3rem;
